@@ -196,7 +196,7 @@ nav di div ul {
 }
 
 #serv {
-    background-image: url(/images/service.jpg);
+    background-image: url(./images/service.jpg);
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
