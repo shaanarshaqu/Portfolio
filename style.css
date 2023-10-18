@@ -1,0 +1,354 @@
+* {
+    margin: 0;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    box-sizing: border-box
+}
+
+:root {
+
+    --primary-color: white;
+    --secondary-color: black;
+}
+
+.dark-theme {
+    --primary-color: rgb(0, 0, 0);
+    --secondary-color: rgb(255, 255, 255);
+    background-color:black;
+}
+
+
+
+body {
+    background-color: var(--primary-color);
+    /* background: rgb(255, 255, 255); */
+    /* color: rgb(0, 0, 0); */
+    color: var(--secondary-color);
+}
+
+header {
+    padding-top: 20px;
+    width: 100%;
+
+    /* background-image: url(/images/shaan2.png);
+    background-size:cover; */
+
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    /* background: rgb(255, 255, 255);*/
+
+    /* background-position: center; */
+
+}
+
+#soft p {
+    margin-top: 240px;
+}
+
+#back {
+    /* background-image: url(/images/shaan2.png);             ed*/
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+
+    padding: 10px 10%;
+    background-color: transparent;
+}
+
+/* nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+} */
+#logo-shaan {
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--secondary-color);
+
+}
+
+.logo-s {
+    color: rgb(11, 118, 167);
+}
+
+#navbarNav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    opacity: 0.9;
+    transition: opacity 0.5s;
+
+}
+
+#navbarNav ul li a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    transition: color 1s;
+
+}
+
+#navbarNav ul li a:hover {
+    color: rgb(11, 118, 167);
+}
+
+#navbarNav ul li a::after {
+    content: '';
+    width: 0px;
+    height: 3px;
+    /* background-color: rgb(11, 118, 167); */
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 1s;
+}
+
+#navbarNav ul li a:hover::after {
+    width: 100%;
+
+}
+
+.header-text {
+    margin-top: 20%;
+    font-size: 30px;
+}
+
+.header-text h1 {
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+.header-text h1 span {
+    color: rgb(11, 118, 167);
+}
+
+li:hover {
+    opacity: 1;
+
+}
+
+#dark {
+    width: 20px;
+    color: var(--secondary-color);
+    display: flex 1;
+}
+
+nav di div ul {
+    flex: 1;
+    text-align: right;
+}
+
+#main-div {
+
+    width: 100%;
+    height: 100vh;
+    background: var(--primary-color);
+
+}
+
+.about {
+    margin: 30px 60px;
+    width: 100%;
+    height: 00px;
+    background: rgb(237, 4, 4);
+}
+
+.main-container {
+
+    /* padding:80px 10%; */
+    display: flex;
+    background-color: var(--primary-color);
+}
+
+#user-div {
+    overflow: hidden;
+    height: 430px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px rgb(11, 118, 167);
+    background-color: rgba(69, 68, 68, 0.825);
+}
+
+#shaan-png {
+    width: 100%;
+    transform: scale(1.2);
+}
+
+/* #navbarNav ul li a
+{
+    color: red;
+} */
+
+#btn-down {
+
+
+    padding: 10px;
+    background: rgba(11, 118, 167, 0.749);
+    border: none;
+    color: white;
+    border-radius: 25px;
+
+}
+
+#serv {
+    background-image: url(/images/service.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 180px 5px;
+
+}
+
+
+#services h4 {
+    font-family: 'Anton', sans-serif;
+    color: white;
+}
+
+#serv p {
+    color: white;
+}
+
+#main-div-1 {
+    margin-top: 30px;
+}
+
+.hello {
+    display: flex;
+    width: 100%;
+}
+
+#pro1,
+#pro2 {
+    border: none;
+}
+
+
+#user-div-about,
+#main-div-row,
+#pro-row,
+#pro1,
+#pro2,
+#pro-div {
+    padding-top: 20px;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+}
+#pro-row h1{
+    color: var(--secondary-color)
+}
+
+#pro-div {
+    
+    padding-bottom: 200px;
+}
+
+#pro-sec {
+    padding-top: 100px;
+}
+
+#main-div-row {
+    padding-top: 60px;
+
+
+}
+
+#pro-1,#pro-2 {
+    margin: auto;
+    width: 100%;
+    
+}
+
+#html {
+    width: 90%;
+    background-color: #04AA6D;
+    text-align: right;
+    padding:10px 0px;
+    color: white;
+    border-radius: 30px;
+}
+
+#CSS {
+    width: 85%;
+    background-color: #2196F3;
+    text-align: right;
+    padding:10px 0px;
+    color: white;
+    border-radius: 30px;
+}
+
+#JavaScript {
+    width: 80%;
+    background-color: #f44336;
+    text-align: right;
+    padding:10px 0px;
+    color: white;
+    border-radius: 30px;
+}
+
+#Bootstrap {
+    width: 10%;
+    background-color: #808080;
+    text-align: right;
+    padding:10px 0px;
+    color: white;
+    border-radius: 30px;
+}
+
+.container1 {
+    
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 30px;
+    border: 1px solid var(--primary-color);
+}
+#skill{
+    padding:50px 80px;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+#hi-shaan{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+#hi-shaan-row{
+    padding-left: 50px;
+}
+#user-div-about{
+    padding-left: 80px;
+}
+
+#user-div-about p{
+    font-size: 20px;
+}
+.imgi{
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(11, 118, 167);
+}
+
+#send{
+    color: white;
+    border: none;
+    background-color:rgb(11, 118, 167) ;
+    padding: 10px 20px;
+    border-radius: 15px;
+    box-shadow:2px 2px 10px white;
+    transition: opacity 0.5s,transform 0.5s;
+}
+#send:hover{
+    
+    opacity: 0.9;
+}
+#send:active{
+    box-shadow: none;
+    transform: translate(2px ,2px);
+}
