@@ -31,7 +31,7 @@ header {
     padding-top: 20px;
     width: 100%;
 
-    /* background-image: url(/images/shaan2.png);
+    /* background-image: url(./images/shaan2.png);
     background-size:cover; */
 
     background: var(--primary-color);
@@ -47,7 +47,7 @@ header {
 }
 
 #back {
-    /* background-image: url(/images/shaan2.png);             ed*/
+    /* background-image: url(./images/shaan2.png);             ed*/
     background-size: cover;
     background-position: center;
 }
@@ -199,7 +199,7 @@ nav di div ul {
 }
 
 #serv {
-    background-image: url(/images/service.jpg);
+    background-image: url(./images/service.jpg);
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
